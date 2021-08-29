@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+
+  background-color: black;
+  color: seashell;
+  opacity: .6;
+}
+
+a {
+  color: seashell;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+
+/*
+                                  ------------------  HEADER STYLES  --------------------
+*/
+#header {
+  width: 100%;
+  height: 69px;
+
+  display: flex;
+  justify-content: space-between;
+
+  position: fixed;
+
+  background-color: black;
+}
+
+#header img {
+  height: 50px;
+  padding: 10px;
+}
+
+#header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+#header nav ul li a {
+  padding: 10px;
+}
+
+/*
+                                  ------------------  MAIN STYLES  --------------------
+*/
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding-top: 69px;
+}
+
+/*
+                                  ------------------  MISSION SECTION STYLES  --------------------
+*/
+
+#mission-section img {
+  width: 100%;
+  height: auto;
+}
+
+#mission-banner {
+  position: absolute;
+  top: 65%;
+  right: 0;
+  background-color: black;
+  width: 100%;
+}
